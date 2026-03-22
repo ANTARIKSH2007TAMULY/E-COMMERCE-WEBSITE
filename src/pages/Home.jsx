@@ -28,8 +28,8 @@ const Home = () => (
     </div>
     <div className="relative mt-8 grid max-w-xl grid-cols-3 gap-3">
       <div className="rounded-xl border border-white/20 bg-white/10 p-3 text-center">
-        <p className="text-lg font-extrabold">2 APIs</p>
-        <p className="text-xs text-sky-100">Data Sources</p>
+        <p className="text-lg font-extrabold">2 Distributors</p>
+        <p className="text-xs text-sky-100">Total Distributors</p>
       </div>
       <div className="rounded-xl border border-white/20 bg-white/10 p-3 text-center">
         <p className="text-lg font-extrabold">Live</p>
