@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+body {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(56, 189, 248, 0.18), transparent 30%),
+    radial-gradient(circle at 90% 0%, rgba(99, 102, 241, 0.14), transparent 30%),
+    #f8fafc;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+body.dark-mode {
+  background:
+    radial-gradient(circle at 10% 10%, rgba(14, 116, 144, 0.28), transparent 30%),
+    radial-gradient(circle at 90% 0%, rgba(79, 70, 229, 0.22), transparent 30%),
+    #020617;
+  color: #e2e8f0;
+}
+
+body.dark-mode [class*="bg-white/90"] {
+  background-color: rgba(15, 23, 42, 0.86) !important;
+}
+
+body.dark-mode [class*="bg-white/65"] {
+  background-color: rgba(2, 6, 23, 0.72) !important;
+}
+
+body.dark-mode [class*="bg-slate-50"] {
+  background-color: rgba(30, 41, 59, 0.72) !important;
+}
+
+body.dark-mode [class*="border-white/70"],
+body.dark-mode [class*="border-white/40"] {
+  border-color: rgba(51, 65, 85, 0.8) !important;
+}
+
+body.dark-mode [class*="text-slate-900"],
+body.dark-mode [class*="text-slate-800"] {
+  color: #f8fafc !important;
+}
+
+body.dark-mode [class*="text-slate-700"],
+body.dark-mode [class*="text-slate-600"] {
+  color: #cbd5e1 !important;
+}
+
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: rgba(15, 23, 42, 0.82) !important;
+  color: #e2e8f0 !important;
+  border-color: rgba(51, 65, 85, 0.9) !important;
+}
+
+.category-chip {
+  background-color: #e2e8f0;
+  color: #334155;
+}
+
+.category-chip:hover {
+  background-color: #cbd5e1;
+}
+
+.category-chip-active {
+  background-color: #0f172a;
+  color: #ffffff;
+}
+
+body.dark-mode .category-chip {
+  background-color: #334155;
+  color: #e2e8f0;
+  border: 1px solid #475569;
+}
+
+body.dark-mode .category-chip:hover {
+  background-color: #475569;
+}
+
+body.dark-mode .category-chip-active {
+  background: linear-gradient(90deg, #0284c7, #4f46e5);
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.source-label {
+  color: #334155;
+}
+
+.source-chip {
+  background-color: #e2e8f0;
+  color: #1e293b;
+}
+
+.source-chip:hover {
+  background-color: #cbd5e1;
+}
+
+.source-chip-active {
+  background: linear-gradient(90deg, #0284c7, #4f46e5);
+  color: #ffffff;
+}
+
+body.dark-mode .source-label {
+  color: #e2e8f0;
+}
+
+body.dark-mode .source-chip {
+  background-color: #334155;
+  color: #f1f5f9;
+  border: 1px solid #475569;
+}
+
+body.dark-mode .source-chip:hover {
+  background-color: #475569;
+}
