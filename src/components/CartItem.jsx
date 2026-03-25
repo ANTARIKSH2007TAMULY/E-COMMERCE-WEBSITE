@@ -9,11 +9,11 @@ const CartItem = ({ item, onUpdate, onRemove }) => (
       <h3 className="line-clamp-2 font-semibold text-slate-800">{item.title}</h3>
       <p className="text-slate-600">{formatCurrency(item.price)}</p>
       <div className="mt-2 inline-flex items-center gap-2 rounded-full border border-slate-200 bg-slate-50 px-2 py-1">
-        <button onClick={() => onUpdate(item.productKey, item.quantity - 1)} className="rounded-full border bg-white px-2">
+        <button onClick={() => onUpdate(item.productKey, item.quantity - 1)} className="rounded-full border bg-lightblue px-2">
           -
         </button>
         <span className="min-w-5 text-center text-sm font-semibold">{item.quantity}</span>
-        <button onClick={() => onUpdate(item.productKey, item.quantity + 1)} className="rounded-full border bg-white px-2">
+        <button onClick={() => onUpdate(item.productKey, item.quantity + 1)} className="rounded-full border bg-lightblue px-2">
           +
         </button>
       </div>
